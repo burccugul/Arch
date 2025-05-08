@@ -739,6 +739,28 @@
       margin-top: 5px;
     }
     
+    /* 3D View Button */
+    .view-3d-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      z-index: 2;
+      transition: all 0.3s ease;
+    }
+    
+    .view-3d-button:hover {
+      background-color: #e0b83e;
+    }
     
     /* Image Gallery */
     .image-gallery {
@@ -877,8 +899,8 @@
         <div class="color-indicator" style="background-color: #F5F5DC;"></div>
       </div>
       <img src="kybele.webp" alt="Kybele figure">
-      <div class="artifact-name">Kybele</div>
-      <button class="click-button" data-artifact="Kybele">
+      <div class="artifact-name">kybele</div>
+      <button class="click-button" data-artifact="kybele">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -893,9 +915,9 @@
         <div class="color-indicator" style="background-color: #FFD700;"></div>
         <div class="color-indicator" style="background-color: #A52A2A;"></div>
       </div>
-      <img src="bull&deerhead.webp" alt="Bull and Deer ">
-      <div class="artifact-name">Bull Deer </div>
-      <button class="click-button" data-artifact="Bull Deer">
+      <img src="bull&deerhead.webp" alt="Bull and deer head">
+      <div class="artifact-name">bull&deer head</div>
+      <button class="click-button" data-artifact="bull-deer">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -910,9 +932,9 @@
         <div class="color-indicator" style="background-color: #A52A2A;"></div>
         <div class="color-indicator" style="background-color: #8B4513;"></div>
       </div>
-      <img src="idol.webp" alt="Ancient Idol">
-      <div class="artifact-name">Idol</div>
-      <button class="click-button" data-artifact="Idol">
+      <img src="idol.webp" alt="Ancient idol">
+      <div class="artifact-name">idol</div>
+      <button class="click-button" data-artifact="idol">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -927,9 +949,9 @@
         <div class="color-indicator" style="background-color: #F5F5DC;"></div>
         <div class="color-indicator" style="background-color: #808080;"></div>
       </div>
-      <img src="stonefaces&masks.webp" alt="Stone Faces and Masks">
-      <div class="artifact-name">Stone Faces and Masks</div>
-      <button class="click-button" data-artifact="Stone Faces and Masks">
+      <img src="stonefaces&masks.webp" alt="Stone faces and masks">
+      <div class="artifact-name">stone faces&masks</div>
+      <button class="click-button" data-artifact="stone-faces">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -944,9 +966,9 @@
         <div class="color-indicator" style="background-color: #000000;"></div>
         <div class="color-indicator" style="background-color: #2F4F4F;"></div>
       </div>
-      <img src="lion.webp" alt="Lion">
-      <div class="artifact-name">Lion</div>
-      <button class="click-button" data-artifact="Lion">
+      <img src="lion.webp" alt="Lion figure">
+      <div class="artifact-name">lion</div>
+      <button class="click-button" data-artifact="lion">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -961,9 +983,9 @@
         <div class="color-indicator" style="background-color: #F5F5DC;"></div>
         <div class="color-indicator" style="background-color: #E5D3B3;"></div>
       </div>
-      <img src="gılgamıs.webp" alt="Gilgamesh">
-      <div class="artifact-name">Gilgamesh</div>
-      <button class="click-button" data-artifact="Gilgamesh">
+      <img src="gılgamıs.webp" alt="Gilgamesh figure">
+      <div class="artifact-name">gilgamesh</div>
+      <button class="click-button" data-artifact="gilgamesh">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -978,9 +1000,9 @@
         <div class="color-indicator" style="background-color: #A52A2A;"></div>
         <div class="color-indicator" style="background-color: #808080;"></div>
       </div>
-      <img src="embracinggoddes.webp" alt="Embracing Goddess">
-      <div class="artifact-name">Embracing Goddess</div>
-      <button class="click-button" data-artifact="Embracing Goddess">
+      <img src="embracinggoddes.webp" alt="Embracing goddess figure">
+      <div class="artifact-name">embracing goddess</div>
+      <button class="click-button" data-artifact="embracing-goddess">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -995,9 +1017,9 @@
         <div class="color-indicator" style="background-color: #8B4513;"></div>
         <div class="color-indicator" style="background-color: #A52A2A;"></div>
       </div>
-      <img src="ceramic.webp" alt="Ceramic ">
-      <div class="artifact-name">Ceramic</div>
-      <button class="click-button" data-artifact="Ceramic">
+      <img src="ceramic.webp" alt="Ceramic artifact">
+      <div class="artifact-name">ceramic</div>
+      <button class="click-button" data-artifact="ceramic">
         CLICK HERE
         <svg class="cursor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
           <path d="M13.75 6.75L19.25 12L13.75 17.25"></path>
@@ -1018,6 +1040,14 @@
         <div class="modal-image">
           <div class="modal-image-container">
             <img id="modalImage" src="/placeholder.svg?height=400&width=300" alt="Artifact image">
+            <button class="view-3d-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+                <path d="M2 12h20"></path>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              View in 3D
+            </button>
           </div>
           <div class="image-gallery" id="imageGallery">
             <!-- Thumbnails will be added dynamically -->
@@ -1080,12 +1110,23 @@
             <!-- Tags will be added dynamically -->
           </div>
           
-
+          <div class="related-artifacts">
+            <div class="related-title">Related Artifacts</div>
+            <div class="related-items" id="relatedItems">
+              <!-- Related items will be added dynamically -->
+            </div>
+          </div>
         </div>
       </div>
       <div class="modal-footer">
         <div class="artifact-period" id="artifactPeriodFooter">Time period information</div>
-
+        <button class="view-more-button">
+          More Information
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
       </div>
     </div>
   </div>
@@ -1093,14 +1134,15 @@
   <script>
     // Enhanced Artifact data with additional specifications and expanded color information
     const artifactData = {
-      'Kybele': {
-        title: 'Kybele',
+      'kybele': {
+        title: 'Kybele - Mother Goddess',
         image: 'kybele.webp',
         history: 'Kybele is one of the oldest and most important goddesses of Anatolia, with a history dating back to 6000 BCE. She gained particular importance during the Phrygian period.',
         features: 'Usually depicted as a female figure sitting on a throne, wearing a crown with city walls, and accompanied by lions. She symbolizes fertility and fecundity.',
         significance: 'She is considered the protector of nature, mountains, and wild animals. She is also the protector of cities and communities. She became an important cult during the Roman Empire period.',
         period: 'Neolithic Period to Roman Empire (6000 BCE - 400 CE)',
         tags: ['Goddess', 'Fertility', 'Phrygian', 'Roman'],
+        related: ['embracing-goddess', 'idol', 'stone-faces'],
         // Specifications
         figure: 'Seated female figure with crown',
         size: '15-30 cm in height',
@@ -1111,15 +1153,20 @@
         // Color data for filtering
         colors: ['#808080', '#F5F5DC', '#E5D3B3', '#E6E6FA']
       },
-      'Bull Deer': {
-        title: 'Bull Deer',
+      'bull-deer': {
+        title: 'Bull and Deer Head',
         image: 'bull&deerhead.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Bull1',
+          '/placeholder.svg?height=400&width=300&text=Bull2',
+          '/placeholder.svg?height=400&width=300&text=Bull3'
+        ],
         history: 'This artifact belongs to the Hittite period and dates back to 1600-1200 BCE. Bull and deer figures were considered sacred in Anatolia.',
         features: 'A gold-plated bronze sculpture. Its detailed horns and sharp features demonstrate the superior metalworking of the period.',
         significance: 'The bull is the symbol of the Storm God Teshup in the Hittite pantheon. The deer is associated with the protective deity and nature. These figures represent power, fertility, and harmony with nature.',
         period: 'Hittite Period (1600-1200 BCE)',
         tags: ['Hittite', 'Bronze', 'Animal', 'Deity'],
+        related: ['lion', 'ceramic', 'gilgamesh'],
         // Specifications
         figure: 'Animal head with horns',
         size: '12-20 cm in height',
@@ -1130,15 +1177,20 @@
         // Color data for filtering
         colors: ['#FFD700', '#A52A2A', '#CD7F32', '#B87333']
       },
-      'Idol': {
-        title: 'Idol',
+      'idol': {
+        title: 'Anatolian Idol',
         image: 'idol.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Idol1',
+          '/placeholder.svg?height=400&width=300&text=Idol2',
+          '/placeholder.svg?height=400&width=300&text=Idol3'
+        ],
         history: 'This idol is part of a tradition extending from the Neolithic period to the Bronze Age, dating to 5500-3000 BCE.',
         features: 'Made in a stylized human form, usually as a female figure. Made of terracotta, it has an abstract appearance with minimal details.',
         significance: 'Symbolizes fertility, fecundity, and the continuity of life. It was probably used in religious rituals and played an important role in burial traditions.',
         period: 'Neolithic to Early Bronze Age (5500-3000 BCE)',
         tags: ['Neolithic', 'Terracotta', 'Ritual', 'Fertility'],
+        related: ['kybele', 'embracing-goddess', 'stone-faces'],
         // Specifications
         figure: 'Stylized human form',
         size: '5-15 cm in height',
@@ -1149,16 +1201,20 @@
         // Color data for filtering
         colors: ['#A52A2A', '#8B4513', '#FF0000']
       },
-      'Stone Faces and Masks': {
+      'stone-faces': {
         title: 'Stone Faces and Masks',
         image: 'stonefaces&masks.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Mask1',
+          '/placeholder.svg?height=400&width=300&text=Mask2',
+          '/placeholder.svg?height=400&width=300&text=Mask3'
+        ],
         history: 'These artifacts generally belong to the Late Hittite and Phrygian periods (1200-700 BCE). They have been found in various regions of Anatolia.',
         features: 'Masks and reliefs carved from stone in the form of human faces. Some show realistic features, while others are stylized.',
         significance: 'These masks were probably used for ritual purposes, representing protective spirits or associated with the cult of the dead. Some may represent deities or important figures.',
         period: 'Late Hittite and Phrygian Periods (1200-700 BCE)',
         tags: ['Mask', 'Stone', 'Ritual', 'Phrygian'],
-
+        related: ['kybele', 'idol', 'gilgamesh'],
         // Specifications
         figure: 'Human face mask',
         size: '10-25 cm in height',
@@ -1169,15 +1225,20 @@
         // Color data for filtering
         colors: ['#F5F5DC', '#808080', '#E5D3B3', '#D2B48C']
       },
-      'Lion': {
-        title: 'Lion',
+      'lion': {
+        title: 'Lion Statue',
         image: 'lion.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Lion1',
+          '/placeholder.svg?height=400&width=300&text=Lion2',
+          '/placeholder.svg?height=400&width=300&text=Lion3'
+        ],
         history: 'Lion statues are commonly seen in the Hittite and Late Hittite periods (1600-700 BCE). They were especially used to decorate city gates and important structures.',
         features: 'Usually made of basalt or limestone, with detailed manes and muscle structure, and emphasized paws.',
         significance: 'The lion is a symbol of power and protection. It represents royal and divine power. Gate lions were placed to keep away evil spirits and enemies.',
         period: 'Hittite and Late Hittite Periods (1600-700 BCE)',
         tags: ['Lion', 'Stone', 'Protection', 'Gateway'],
+        related: ['bull-deer', 'gilgamesh', 'ceramic'],
         // Specifications
         figure: 'Crouching lion',
         size: '30-100 cm in length',
@@ -1188,15 +1249,20 @@
         // Color data for filtering
         colors: ['#000000', '#2F4F4F', '#808080', '#708090']
       },
-      'Gilgamesh': {
+      'gilgamesh': {
         title: 'Gilgamesh',
         image: 'gılgamıs.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Gilgamesh1',
+          '/placeholder.svg?height=400&width=300&text=Gilgamesh2',
+          '/placeholder.svg?height=400&width=300&text=Gilgamesh3'
+        ],
         history: 'Gilgamesh is the hero of the most famous Mesopotamian epic. Such artifacts generally date to 2000-700 BCE and have also been found in Anatolia.',
         features: 'Usually depicted as a strong male figure fighting with winged creatures or lions. May be in the form of relief or sculpture.',
         significance: 'Gilgamesh symbolizes the search for immortality and humanity\'s struggle with nature. He is an important figure in Sumerian, Akkadian, Babylonian, and Hittite cultures.',
         period: 'Mesopotamian Influence (2000-700 BCE)',
         tags: ['Epic', 'Hero', 'Mesopotamian', 'Relief'],
+        related: ['lion', 'bull-deer', 'stone-faces'],
         // Specifications
         figure: 'Standing male hero figure',
         size: '20-40 cm in height',
@@ -1207,16 +1273,20 @@
         // Color data for filtering
         colors: ['#F5F5DC', '#E5D3B3', '#D2B48C']
       },
-      'Embracing Goddess': {
+      'embracing-goddess': {
         title: 'Embracing Goddess',
         image: 'embracinggoddes.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Goddess1',
+          '/placeholder.svg?height=400&width=300&text=Goddess2',
+          '/placeholder.svg?height=400&width=300&text=Goddess3'
+        ],
         history: 'Such figures are generally seen from the Neolithic period (7000-5500 BCE) to the Bronze Age. They have been found in various settlements in Anatolia.',
         features: 'Figurines made of terracotta, usually in the form of a woman embracing a child or another figure.',
         significance: 'Symbolizes motherhood, protection, and nurturing. Associated with the fertility cult and probably used in birth rituals.',
         period: 'Neolithic to Bronze Age (7000-2000 BCE)',
         tags: ['Goddess', 'Terracotta', 'Fertility', 'Motherhood'],
-
+        related: ['kybele', 'idol', 'ceramic'],
         // Specifications
         figure: 'Female figure embracing child',
         size: '8-15 cm in height',
@@ -1227,15 +1297,20 @@
         // Color data for filtering
         colors: ['#A52A2A', '#808080', '#8B4513']
       },
-      'Ceramic': {
-        title: 'Ceramic',
+      'ceramic': {
+        title: 'Ceramic Artifact',
         image: 'ceramic.webp',
-
+        images: [
+          '/placeholder.svg?height=400&width=300&text=Ceramic1',
+          '/placeholder.svg?height=400&width=300&text=Ceramic2',
+          '/placeholder.svg?height=400&width=300&text=Ceramic3'
+        ],
         history: 'Ceramic production in Anatolia is seen from the Neolithic period (7000 BCE) onwards. Such animal-shaped vessels are especially common in the Bronze Age (3000-1200 BCE).',
         features: 'Ritual or drinking vessels made of terracotta, usually in animal form (in this example, pig or bull).',
         significance: 'Such vessels were generally used for liquid offerings in religious ceremonies. Animal forms were associated with fertility, power, or specific deities.',
         period: 'Bronze Age (3000-1200 BCE)',
         tags: ['Ceramic', 'Animal', 'Vessel', 'Ritual'],
+        related: ['bull-deer', 'lion', 'embracing-goddess'],
         // Specifications
         figure: 'Animal-shaped vessel',
         size: '10-20 cm in height',
@@ -1368,7 +1443,10 @@
       alert('This feature is currently under development. More information and visuals will be added soon.');
     });
     
-
+    // Handle 3D view button
+    document.querySelector('.view-3d-button').addEventListener('click', function() {
+      alert('3D view feature is coming soon! You will be able to rotate and examine artifacts in 3D.');
+    });
     
     // Handle action buttons
     document.querySelectorAll('.action-button').forEach(button => {
